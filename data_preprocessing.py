@@ -66,8 +66,7 @@ for column in ['color', 'director_name', 'genres', 'duration', 'imdb_score']:
     df['director_name'].replace('', mode_value, inplace=True)  # Mengganti string kosong dengan mode
 
 #4. Transformasi Data
-#a. Ubah tipe data kolom menjadi tipe data yang sesuai (misalnya, konversi genres dari onject ke string).
-# agar bisa dilakukan pemisahan genre yang tergabung dalam satu kolom menjadi beberapa kolom
+#a. Ubah tipe data kolom menjadi tipe data yang sesuai
 print(df.dtypes)
 df['genres'] = df['genres'].astype(str)
 print(df['genres'])
