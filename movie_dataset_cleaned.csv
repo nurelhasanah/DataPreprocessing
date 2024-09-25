@@ -1,0 +1,90 @@
+color,director_name,duration,gross,genres,movie_title,title_year,language,country,budget,imdb_score,actors,movie_facebook_likes
+color,martin scorsese,240.0,116866727.0,biography|comedy|crime|drama,the wolf of wall street,2013,english,usa,100000000.0,8.2,"leonardo dicaprio,matthew mcconaughey,jon favreau",138000
+color,shane black,195.0,408992272.0,action|adventure|sci-fi,iron man 3,2013,english,usa,200000000.0,7.2,"robert downey jr.,jon favreau,don cheadle",95000
+color,quentin tarantino,187.0,54116191.0,crime|drama|mystery|thriller|western,the hateful eight,2015,english,usa,44000000.0,7.9,"craig stark,jennifer jason leigh,zoë bell",114000
+color,kenneth lonergan,186.0,46495.0,drama,margaret,2011,english,usa,14000000.0,6.5,"matt damon,kieran culkin,john gallagher jr.",0
+color,peter jackson,186.0,258355354.0,adventure|fantasy,the hobbit: the desolation of smaug,2013,english,usa,225000000.0,7.9,"aidan turner,adam brown,james nesbitt",83000
+color,ridley scott,183.0,330249062.0,action|adventure|sci-fi,batman v superman: dawn of justice,202,english,usa,250000000.0,6.9,"henry cavill,lauren cohan,alan d. purwin",197000
+color,peter jackson,137.0,303001229.0,adventure|fantasy,the hobbit: an unexpected journey,2012,english,usa,180000000.0,7.9,"aidan turner,adam brown,james nesbitt",166000
+color,joss whedon,173.0,623279547.0,action|adventure|sci-fi,the avengers,2012,english,usa,220000000.0,8.1,"chris hemsworth,robert downey jr.,scarlett johansson",123000
+color,joss whedon,173.0,623279547.0,action|adventure|sci-fi,the avengers,2012,english,usa,220000000.0,8.1,"chris hemsworth,robert downey jr.,scarlett johansson",123000
+color,tom tykwer,172.0,27098580.0,drama|sci-fi,cloud atlas,2012,english,germany,102000000.0,6.7,"tom hanks,jim sturgess,jim broadbent",124000
+color,ridley scott,158.0,102515793.0,crime|drama|mystery|thriller,the girl with the dragon tattoo,2011,english,usa,90000000.0,7.8,"robin wright,goran visnjic,joely richardson",54000
+color,christopher spencer,170.0,59696176.0,action|adventure|sci-fi,son of god,2014,english,usa,22000000.0,5.6,"roma downey,amber rose revah,darwin shaw",15000
+color,christopher nolan,169.0,187991439.0,adventure|drama|sci-fi,interstellar,2014,english,usa,165000000.0,8.6,"matthew mcconaughey,anne hathaway,mackenzie foy",349000
+color,f. gary gray,167.0,161029270.0,biography|crime|drama|history|music,straight outta compton,2015,english,usa,28000000.0,7.9,"aldis hodge,neil brown jr.,r. marcos taylor",76000
+color,richard linklater,165.0,25359200.0,drama,boyhood,2014,english,usa,4000000.0,8.0,"ellar coltrane,lorelei linklater,libby villari",92000
+color,quentin tarantino,580.0,162804648.0,drama|western,django unchained,2012,english,usa,100000000.0,8.5,"leonardo dicaprio,christoph waltz,ato essandoh",199000
+color,michael bay,165.0,245428137.0,action|adventure|sci-fi,transformers: age of extinction,2014,english,usa,210000000.0,5.7,"bingbing li,sophia myles,kelsey grammer",56000
+color,christopher nolan,164.0,448130642.0,action|thriller,the dark knight rises,2012,english,usa,250000000.0,8.5,"tom hardy,christian bale,joseph gordon-levitt",164000
+color,peter jackson,164.0,255108370.0,adventure|fantasy,the hobbit: the battle of the five armies,2014,english,new zealand,250000000.0,7.5,"aidan turner,adam brown,james nesbitt",65000
+color,tom hooper,158.0,148775460.0,drama|musical|romance,les misérables,2012,english,usa,61000000.0,7.6,"hugh jackman,eddie redmayne,anne hathaway",144000
+color,tom hooper,158.0,148775460.0,drama|musical|romance,les misérables,2012,english,usa,61000000.0,7.6,"hugh jackman,eddie redmayne,anne hathaway",144000
+color,kathryn bigelow,157.0,95720716.0,drama|history|thriller,zero dark thirty,2012,english,usa,40000000.0,7.4,"jennifer ehle,harold perrineau,parker sawyers",39000
+color,ridley scott,156.0,105219735.0,action|adventure|drama|history,robin hood,2010,english,usa,200000000.0,6.7,"mark addy,william hurt,scott grimes",17000
+color,ridley scott,156.0,183635922.0,adventure|drama|thriller|western,the revenant,2015,english,usa,135000000.0,8.1,"leonardo dicaprio,tom hardy,lukas haas",190000
+color,michael bay,154.0,352358779.0,action|adventure|sci-fi,transformers: dark of the moon,2011,english,usa,195000000.0,6.3,"glenn morshower,lester speight,kevin dunn",46000
+color,denis villeneuve,153.0,60962878.0,crime|drama|mystery|thriller,prisoners,2013,english,usa,46000000.0,8.1,"hugh jackman,jake gyllenhaal,dylan minnette",86000
+color,marc webb,153.0,262030663.0,action|adventure|fantasy,the amazing spider-man,2012,english,usa,230000000.0,7.0,"emma stone,andrew garfield,chris zylka",56000
+color,ridley scott,151.0,228430993.0,adventure|drama|sci-fi,the martian,2015,english,usa,108000000.0,8.1,"matt damon,donald glover,benedict wong",153000
+color,ridley scott,150.0,65007045.0,action|adventure|drama,exodus: gods and kings,2014,english,uk,140000000.0,6.1,"christian bale,maría valverde,ben mendelsohn",51000
+color,ridley scott,150.0,65007045.0,action|adventure|drama,exodus: gods and kings,2014,english,uk,140000000.0,6.1,"christian bale,maría valverde,ben mendelsohn",51000
+color,ridley scott,150.0,182204440.0,biography|drama|history|war,lincoln,2012,english,usa,65000000.0,7.4,"joseph gordon-levitt,hal holbrook,bruce mcgill",71000
+color,gore verbinski,650.0,89289910.0,action|adventure|western,the lone ranger,2013,english,usa,215000000.0,6.5,"johnny depp,ruth wilson,tom wilkinson",48000
+color,david fincher,149.0,167735396.0,crime|drama|mystery|thriller,gone girl,2014,english,usa,61000000.0,8.1,"patrick fugit,sela ward,emily ratajkowski",146000
+color,bryan singer,149.0,233914986.0,action|adventure|fantasy|sci-fi|thriller,x-men: days of future past,2014,english,united states,200000000.0,8.0,"jennifer lawrence,peter dinklage,hugh jackman",82000
+color,christopher nolan,148.0,292568851.0,action|adventure|sci-fi|thriller,inception,2010,english,usa,160000000.0,8.8,"leonardo dicaprio,tom hardy,joseph gordon-levitt",175000
+color,paul thomas anderson,148.0,8093318.0,comedy|crime|drama|mystery|romance,inherent vice,2014,english,usa,20000000.0,6.7,"martin dew,katherine waterston,serena scott thomas",18000
+color,sam mendes,148.0,200074175.0,action|adventure|thriller,spectre,2015,english,uk,245000000.0,6.8,"christoph waltz,rory kinnear,stephanie sigman",85000
+color,ridley scott,147.0,407197282.0,action|adventure|sci-fi,captain america: civil war,2016,english,usa,250000000.0,8.2,"robert downey jr.,scarlett johansson,chris evans",72000
+color,michael patrick king,146.0,95328937.0,comedy|drama|romance,sex and the city 2,2010,english,usa,100000000.0,4.3,"chris noth,liza minnelli,kristin davis",0
+color,tate taylor,146.0,169705587.0,drama,the help,2011,english,usa,25000000.0,8.1,"emma stone,bryce dallas howard,mike vogel",75000
+color,francis lawrence,146.0,424645577.0,adventure|sci-fi|thriller,the hunger games: catching fire,2013,english,usa,130000000.0,7.6,"jennifer lawrence,josh hutcherson,sandra ellis lafferty",82000
+black and white,steven spielberg,146.0,79883359.0,drama|war,war horse,2011,english,usa,66000000.0,7.2,"jeremy irvine,benedict cumberbatch,eddie marsan",28000
+color,michael bay,144.0,52822418.0,action|drama|thriller|war,13 hours,2016,english,usa,50000000.0,7.4,"toby stephens,james badge dale,david costabile",44000
+color,guillaume canet,144.0,41229.0,crime|drama|thriller,blood ties,2013,english,france,25500000.0,6.5,"mila kunis,lili taylor,billy crudup",0
+color,paul thomas anderson,144.0,16377274.0,drama,the master,2012,english,usa,32000000.0,7.1,"mike howard,jeffrey w. jenkins,bruce goodchild",27000
+color,bryan singer,144.0,154985087.0,action|adventure|sci-fi,x-men: apocalypse,2016,english,usa,178000000.0,7.3,"jennifer lawrence,michael fassbender,tye sheridan",54000
+color,adam mckay,143.0,2175312.0,comedy,anchorman 2: the legend continues,2013,english,usa,50000000.0,6.3,"harrison ford,will ferrell,steve carell",41000
+color,zack snyder,143.0,291021565.0,action|adventure|fantasy|sci-fi,man of steel,2013,english,usa,225000000.0,7.2,"henry cavill,christopher meloni,harry lennix",118000
+color,sam mendes,143.0,304360277.0,action|adventure|thriller,skyfall,2012,english,uk,200000000.0,7.8,"albert finney,helen mccrory,rory kinnear",80000
+color,sam mendes,143.0,304360277.0,action|adventure|thriller,skyfall,2012,english,uk,200000000.0,7.8,"albert finney,helen mccrory,rory kinnear",80000
+color,baz luhrmann,143.0,144812796.0,drama|romance,the great gatsby,2013,english,australia,105000000.0,7.3,"leonardo dicaprio,elizabeth debicki,steve bisley",115000
+color,baz luhrmann,143.0,144812796.0,drama|romance,the great gatsby,2013,english,australia,105000000.0,7.3,"leonardo dicaprio,elizabeth debicki,steve bisley",115000
+color,steven spielberg,142.0,72306065.0,drama|history|thriller,bridge of spies,2015,english,usa,40000000.0,7.6,"tom hanks,mark rylance,amy ryan",55000
+color,marc webb,142.0,202853933.0,action|adventure|fantasy|sci-fi,the amazing spider-man 2,2014,english,usa,200000000.0,6.7,"emma stone,andrew garfield,b.j. novak",41000
+color,ridley scott,142.0,407999255.0,adventure|drama|sci-fi|thriller,the hunger games,2012,english,usa,78000000.0,7.3,"jennifer lawrence,josh hutcherson,anthony reynolds",140000
+color,joss whedon,141.0,458991599.0,action|adventure|sci-fi,avengers: age of ultron,2015,english,usa,250000000.0,7.5,"chris hemsworth,robert downey jr.,scarlett johansson",118000
+color,justin chadwick,141.0,8324748.0,biography|drama|history,mandela: long walk to freedom,2013,english,uk,35000000.0,7.1,"terry pheto,fana mokoena,tony kgoroge",13000
+color,oliver stone,141.0,47307550.0,crime|drama|thriller,savages,2012,english,usa,45000000.0,6.5,"demián bichir,shea whigham,gary stretch",28000
+color,david dobkin,141.0,47105085.0,crime|drama,the judge,2014,english,usa,50000000.0,7.4,"robert downey jr.,robert duvall,leighton meester",47000
+color,ryan murphy,140.0,80574010.0,drama|romance,eat pray love,2010,english,usa,60000000.0,5.7,"james franco,julia roberts,billy crudup",26000
+color,james wan,140.0,350034110.0,action|crime|thriller,furious 7,2015,english,usa,190000000.0,7.2,"jason statham,paul walker,vin diesel",94000
+color,derek cianfrance,140.0,21383298.0,crime|drama|thriller,the place beyond the pines,2012,english,usa,15000000.0,7.3,"ryan gosling,ben mendelsohn,angelo anthony pizza",47000
+color,gavin o'connor,140.0,13651662.0,drama|sport,warrior,2011,english,usa,25000000.0,8.2,"tom hardy,frank grillo,kevin dunn",77000
+color,ridley scott,139.0,150832203.0,adventure|mystery|sci-fi,divergent,2014,english,usa,85000000.0,6.7,"kate winslet,theo james,mekhi phifer",49000
+color,gary ross,139.0,20389967.0,action|biography|drama|history|war,free state of jones,2016,english,usa,50000000.0,6.7,"matthew mcconaughey,donald watkins,jessica collins",10000
+color,tate taylor,139.0,30513940.0,biography|drama|music,get on up,2014,english,usa,30000000.0,6.9,"tika sumpter,josh hopkins,aunjanue ellis",11000
+color,terrence malick,139.0,13303319.0,drama|fantasy,the tree of life,2011,english,usa,32000000.0,6.7,"brad pitt,tye sheridan,fiona shaw",39000
+color,ridley scott,138.0,150117807.0,crime|drama,american hustle,2013,english,usa,40000000.0,7.3,"jennifer lawrence,christian bale,bradley cooper",63000
+color,robert zemeckis,138.0,93749203.0,drama|thriller,flight,2012,english,usa,31000000.0,7.3,"denzel washington,bruce greenwood,nadine velazquez",64000
+color,darren aronofsky,138.0,101160529.0,action|adventure|drama,noah,2014,english,usa,125000000.0,5.8,"anthony hopkins,emma watson,logan lerman",71000
+color,martin scorsese,138.0,127968405.0,mystery|thriller,shutter island,2010,english,usa,80000000.0,8.1,"leonardo dicaprio,joseph sikora,nellie sciutto",53000
+color,ridley scott,138.0,16969390.0,crime|drama|thriller,the counselor,2013,english,usa,25000000.0,5.3,"michael fassbender,brad pitt,goran visnjic",24000
+color,james mangold,138.0,132550960.0,action|adventure|sci-fi|thriller,the wolverine,2013,english,usa,120000000.0,6.7,"hugh jackman,tao okamoto,rila fukushima",68000
+color,daniel espinosa,137.0,1206135.0,crime|drama|thriller,child 44,205,english,czech republic,50000000.0,6.4,"tom hardy,fares fares,michael nardone",18000
+color,ridley scott,137.0,37304950.0,biography|crime|drama,j. edgar,2011,english,usa,35000000.0,6.6,"leonardo dicaprio,naomi watts,kaitlyn dever",16000
+color,walter salles,137.0,717753.0,adventure|drama,on the road,2012,english,france,25000000.0,6.1,"kristen stewart,viggo mortensen,kirsten dunst",27000
+color,ridley scott,137.0,281666058.0,adventure|sci-fi,the hunger games: mockingjay - part 2,2015,english,usa,160000000.0,6.6,"jennifer lawrence,philip seymour hoffman,josh hutcherson",38000
+color,angelina jolie pitt,137.0,115603980.0,biography|drama|sport|war,unbroken,2014,english,usa,65000000.0,6.7,"finn wittrock,jack o'connell,alex russell",35000
+color,angelina jolie pitt,137.0,115603980.0,biography|drama|sport|war,unbroken,2014,english,usa,65000000.0,7.2,"finn wittrock,jack o'connell,alex russell",35000
+color,seth macfarlane,136.0,42615685.0,comedy|western,a million ways to die in the west,2014,english,usa,40000000.0,6.1,"liam neeson,charlize theron,seth macfarlane",24000
+color,anthony russo,136.0,259746958.0,action|adventure|sci-fi,captain america: the winter soldier,2014,english,usa,170000000.0,7.8,"scarlett johansson,chris evans,hayley atwell",55000
+color,rob marshall,136.0,241063875.0,action|adventure|fantasy,pirates of the caribbean: on stranger tides,2011,english,usa,250000000.0,6.7,"johnny depp,sam claflin,stephen graham",58000
+color,adam shankman,136.0,38509342.0,comedy|drama|musical|romance,rock of ages,2012,english,usa,75000000.0,5.9,"james martin kelly,shane hartline,celina beach",33000
+color,ridley scott,136.0,52474616.0,drama,wall street: money never sleeps,2010,english,usa,70000000.0,6.3,"frank langella,austin pendleton,john buffalo mailer",13000
+color,tony gilroy,135.0,113165635.0,action|adventure|thriller,the bourne legacy,2012,english,usa,125000000.0,6.7,"jeremy renner,scott glenn,stacy keach",31000
+color,steve mcqueen,134.0,56667870.0,biography|drama|history,12 years a slave,2013,english,usa,20000000.0,8.1,"quvenzhané wallis,scoot mcnairy,taran killam",83000
+color,paul greengrass,134.0,107100855.0,biography|drama|thriller,captain phillips,2013,english,usa,55000000.0,7.9,"tom hanks,chris mulkey,michael chernus",65000
+color,david ayer,134.0,85707116.0,action|drama|war,fury,2014,english,usa,68000000.0,7.6,"brad pitt,logan lerman,jim parrack",82000
+color,clint eastwood,5.0,47034272.0,biography|drama|music|musical,jersey boys,2014,english,usa,40000000.0,6.9,"johnny cannizzaro,steve schirripa,scott vance",16000
