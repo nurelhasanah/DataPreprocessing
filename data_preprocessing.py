@@ -8,6 +8,7 @@ df = pd.read_csv('C:/Users/Asus/Downloads/movie_sample_dataset.csv')
 #2. Memeriksa Data
 #a. Tampilkan beberapa baris pertama dari dataset untuk memahami struktur data
 print("Tampilan beberapa baris pertama dari dataset untuk memahami struktur data")
+print("                     ")
 print(df.head())
 
 #b. Periksa informasi umum tentang dataset, termasuk tipe data dan nilai yang hilang
@@ -16,23 +17,26 @@ import numpy as np
 df['director_name'] = df['director_name'].replace(['Nan', 'Null'], '', regex=True)
 
 # Memeriksa jumlah missing values di setiap kolom
+print("Tampilan jumlah missing values di setiap kolom")
+print("                     ")
 print(df.isnull().sum())
 
 #3. Membersihkan Data
-
 #a. Menghapus baris dengan missing values pada kolom "gross"
 df_cleaned1 = df.dropna(subset=["gross"], axis=0, inplace=True)
+
 # Reset index setelah menghapus baris
 df.reset_index(drop=True, inplace=True)
 
 #b. Menghapus baris dengan missing values pada kolom "budget"
 df_cleaned2 = df.dropna(subset=["budget"], axis=0, inplace=True)
+
 # Reset index setelah menghapus baris
 df.reset_index(drop=True, inplace=True)
 
 #c. Atasi nilai yang tidak konsisten atau kesalahan penulisan di kolom
 # seperti perbedaan antara "Color" dan "color" serta "USA" dan "usa"
-# Mengatasi perbedaan antara "Color" dan "color" atau inkonsistensi serupa pada kolom
+# Mengatasi perbedaan antara "Color" dan "color" atau inkonsistensi serupa pada kolom.
 # Misalnya, kita akan mengubah nilai dalam kolom "color" menjadi huruf kecil semua
 if 'color' in df.columns:
     df['color'] = df['color'].str.lower()  # Ubah semua nilai di kolom "color" menjadi huruf kecil
@@ -45,7 +49,6 @@ print(df.head())
 
 #d. Ubah atau hapus nilai-nilai yang tidak standar
 # seperti nilai negatif atau "NaN"
-
 # Mengubah nilai negatif pada kolom 'duration' dan 'imdb_score'
 # Mengganti nilai negatif dengan NaN
 df['duration'] = df['duration'].apply(lambda x: x if x >= 0 else np.nan)
@@ -53,8 +56,10 @@ df['imdb_score'] = df['imdb_score'].apply(lambda x: x if x >= 0 else np.nan)
 
 # Mengganti dengan frekuensi pada kolom 'color', 'director name', dan 'genres', duration', dan 'imdb_score'
 for column in ['color', 'director_name', 'genres', 'duration', 'imdb_score']:
+
     # Menentukan nilai yang paling sering muncul (mode)
     mode_value = df[column].mode()[0]
+
     # Mengganti nilai N/A dengan nilai yang paling sering muncul
     df[column].fillna(mode_value, inplace=True)
     mode_value = df['director_name'].mode()[0]  # Mendapatkan nilai yang paling sering muncul
@@ -71,7 +76,7 @@ print(df['genres'])
 #Tidak ada yang diubah karena tipe data sudah sesuai
 #Variabel numerik (int atau float) dan variabel kategorik (string atau object)
 
-#b. Normalisasi Teks untuk Memastikan Konsistensi
+#b. Normalisasi teks untuk memastikan konsistensi
 # (misalnya mengubah teks menjadi huruf kecil)
 # Melakukan normalisasi teks untuk kolom 'color', 'director_name', 'genres', 'movie_title',
 # 'language', 'country', dan 'actors'
