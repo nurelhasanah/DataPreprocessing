@@ -147,7 +147,7 @@ if duplicates > 0:
     print(f"Data duplikat ditemukan sebanyak {duplicates} baris.")
 
 # 7. Verifikasi Normalisasi Teks
-# Periksa apakah teks sudah dinormalisasi menjadi huruf kecil dan spasi dihapus
+# Periksa apakah teks sudah dinormalisasi menjadi huruf kecil
 print("\nMemeriksa apakah normalisasi teks sudah benar:")
 columns_to_normalize = ['color', 'director_name', 'genres', 'movie_title', 'language', 'country', 'actors']
 
