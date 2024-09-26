@@ -68,8 +68,6 @@ for column in ['color', 'director_name', 'genres', 'duration', 'imdb_score']:
 #4. Transformasi Data
 #a. Ubah tipe data kolom menjadi tipe data yang sesuai
 print(df.dtypes)
-df['genres'] = df['genres'].astype(str)
-print(df['genres'])
 
 
 #Tidak ada yang diubah karena tipe data sudah sesuai
@@ -87,3 +85,79 @@ for column in columns_to_normalize:
 
 #5. Penyimpanan Data
 df.to_csv('C:/Users/Asus/Downloads/movie_dataset_cleaned.csv', index=False)
+
+#-----MELAKUKAN VERIFIKASI-----#
+print("                     ")
+print("MELAKUKAN VERIFIKASI TERHADAP DATA YANG SUDAH DI CLEANING")
+print("                     ")
+
+# 1. Verifikasi Tidak Ada Missing Values
+print("Memeriksa apakah masih ada missing values setelah preprocessing:")
+missing_values = df.isnull().sum()
+print(missing_values)
+
+# Jika masih ada missing values, tampilkan kolom yang masih memiliki missing values
+if missing_values.any():
+    print("\nKolom dengan missing values:")
+    print(missing_values[missing_values > 0])
+else:
+    print("\nTidak ada missing values.")
+
+# 2. Verifikasi Konsistensi Nilai Kategori
+# Pastikan kolom yang memiliki kategori sudah konsisten (misalnya 'color', 'country')
+print("\nMemeriksa konsistensi nilai pada kolom kategorikal:")
+if 'color' in df.columns:
+    print("Kolom 'color':", df['color'].unique())
+if 'country' in df.columns:
+    print("Kolom 'country':", df['country'].unique())
+
+# 3. Verifikasi Tipe Data
+print("\nMemeriksa tipe data kolom:")
+print(df.dtypes)
+
+# 4. Verifikasi Nilai Negatif
+# Pastikan kolom numerik tertentu seperti 'duration' dan 'imdb_score' tidak memiliki nilai negatif
+print("\nMemeriksa apakah ada nilai negatif pada kolom numerik:")
+if 'duration' in df.columns:
+    print("Kolom 'duration' memiliki nilai negatif:", (df['duration'] < 0).any())
+if 'imdb_score' in df.columns:
+    print("Kolom 'imdb_score' memiliki nilai negatif:", (df['imdb_score'] < 0).any())
+
+# 5. Verifikasi Range Nilai
+# Periksa apakah nilai pada kolom tertentu berada dalam rentang yang logis
+print("\nMemeriksa range nilai:")
+if 'imdb_score' in df.columns:
+    print("Rentang nilai pada kolom 'imdb_score':")
+    print("Nilai minimum:", df['imdb_score'].min(), "| Nilai maksimum:", df['imdb_score'].max())
+    if df['imdb_score'].min() < 0 or df['imdb_score'].max() > 10:
+        print("Peringatan: Nilai 'imdb_score' tidak berada dalam rentang 0-10.")
+
+if 'duration' in df.columns:
+    print("Rentang nilai pada kolom 'duration':")
+    print("Nilai minimum:", df['duration'].min(), "| Nilai maksimum:", df['duration'].max())
+    if df['duration'].min() < 0:
+        print("Peringatan: Terdapat nilai negatif di kolom 'duration'.")
+
+# 6. Verifikasi Duplicates
+# Memeriksa apakah ada duplikat dalam data
+print("\nMemeriksa apakah ada data duplikat:")
+duplicates = df.duplicated().sum()
+print(f"Jumlah duplikat: {duplicates}")
+if duplicates > 0:
+    print(f"Data duplikat ditemukan sebanyak {duplicates} baris.")
+
+# 7. Verifikasi Normalisasi Teks
+# Periksa apakah teks sudah dinormalisasi menjadi huruf kecil dan spasi dihapus
+print("\nMemeriksa apakah normalisasi teks sudah benar:")
+columns_to_normalize = ['color', 'director_name', 'genres', 'movie_title', 'language', 'country', 'actors']
+
+for column in columns_to_normalize:
+    if column in df.columns:
+        non_lowercase_values = df[df[column].str.contains(r'[A-Z]', na=False)]
+        if not non_lowercase_values.empty:
+            print(f"Peringatan: Terdapat nilai tidak normal pada kolom '{column}' yang belum lowercase:")
+            print(non_lowercase_values[column].unique())
+        else:
+            print(f"Kolom '{column}' sudah dinormalisasi dengan benar.")
+
+print("\nVerifikasi selesai.")
